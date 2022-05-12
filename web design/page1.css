@@ -1,0 +1,12 @@
+*{padding: 0; margin: 0;}
+.container{border:solid; padding:10px;width: 90%;}
+.d1{height: 100px; background-color:yellow; padding:10px;}
+.logo{width: 50px; height: 60px; background-color: #a20b32;}
+.nav{align-content: center;}
+.d2{height: 200px;background-color: pink;}
+.d3{margin-top: 10px;}
+.d3::after{content: "";display: block;clear: both;}
+.left{width:49%;height:150px; background-color:red;float:left;}
+.right{width: 49%;height: 150px;background-color: blue;float:right;}
+.d4{height: 220px; background-color: beige;}
+.d5{height:200px; background-color: red;}

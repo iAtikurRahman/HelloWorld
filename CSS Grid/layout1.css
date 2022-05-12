@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    margin:10px 100px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(6,1fr);
+    background-color: aqua;
+}
+.header{
+    height: 20px;
+    grid-column: 1/-1;
+    background-color: antiquewhite;
+}
+.header nav{
+    grid-column: 4/12;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}

@@ -1,0 +1,7 @@
+*{padding: 0;margin: 0;}
+.full{padding: 30px;}
+.header{height: 80px;background-color: wheat;}
+.container{height: 420px;padding: 10px;}
+.left{height: 410px;width: 47%;background-color: rebeccapurple; float:left;}
+.right{height: 390px;width: 46%;background-color:beige;float:right;}
+.footer{height: 200px; background-color: indianred;}
